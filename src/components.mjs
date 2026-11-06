@@ -99,7 +99,6 @@ export function footer(c) {
     </div>
   </div>
 </footer>
-<a class="wa-fab" href="https://wa.me/${CONFIG.whatsapp}" target="_blank" rel="noopener" aria-label="${L('Chat with the GAIA concierge on WhatsApp', 'تحدّث مع كونسيرج GAIA عبر واتساب')}">${waIco}</a>
 <div class="mobile-cta" data-mobile-cta>
   <a class="btn" href="${h('testdrive')}"><span>${L('Book a test drive', 'احجز تجربة قيادة')}</span></a>
   <a class="btn btn-ghost" href="${h('owners')}"><span>${L('I own a G700', 'أملك G700')}</span></a>
