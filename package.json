@@ -1,0 +1,9 @@
+{
+  "name": "jetour-gaia-kuwait",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node src/build.mjs",
+    "dev": "node src/build.mjs && node src/serve.mjs 4321"
+  }
+}
