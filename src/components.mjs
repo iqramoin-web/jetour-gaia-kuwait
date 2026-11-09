@@ -86,6 +86,7 @@ export function footer(c) {
         <p>${L('JETOUR GAIA is sold, serviced and supported in Kuwait by Al Mulla Auto.', 'تُباع JETOUR GAIA وتُصان وتُدعم في الكويت من قِبل الملا للسيارات.')}</p>
         <div class="foot-actions">
           <a class="btn btn-sm" href="${h('testdrive')}"><span>${L('Book a test drive', 'احجز تجربة قيادة')}</span></a>
+          <a class="btn btn-sm btn-ghost" href="https://wa.me/${CONFIG.whatsapp}" target="_blank" rel="noopener"><span>WhatsApp</span></a>
         </div>
       </div>
       <div class="foot-cols">
